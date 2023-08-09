@@ -2,6 +2,12 @@ import Container from 'react-bootstrap/Container';
 import Nav from 'react-bootstrap/Nav';
 import Navbar from 'react-bootstrap/Navbar';
 import NavDropdown from 'react-bootstrap/NavDropdown';
+import Button from 'react-bootstrap/Button';
+import Icon from './Icon';
+import './navbar.css';
+import { count } from 'react'
+
+
 
 function BasicExample() {
   return (
@@ -24,6 +30,7 @@ function BasicExample() {
                 Popular Items
               </NavDropdown.Item>
             </NavDropdown>
+            <Button><Icon/> Cart {count}</Button>
           </Nav>
         </Navbar.Collapse>
       </Container>

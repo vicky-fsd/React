@@ -6,7 +6,7 @@ function Header() {
     <>
     <div className='head'>
         <h1>Shop in Style</h1>
-        <h4>Revamp Your Fashion Collection</h4>
+        <h4>Revamp Your Smart Collection</h4>
         </div>
          
          </>

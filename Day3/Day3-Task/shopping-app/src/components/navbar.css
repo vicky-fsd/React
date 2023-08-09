@@ -1,8 +1,5 @@
-.nav-bar{
+.me-auto{
     display: flex;
     flex-wrap: wrap;
-    justify-content: space-between;
-    margin-top: -20px;
-    padding: 0px;
-   
+   flex-direction: row-reverse;
 }
