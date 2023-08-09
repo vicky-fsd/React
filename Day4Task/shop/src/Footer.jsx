@@ -4,7 +4,7 @@ import './foot.css'
 function Footer() {
   return (
     
-    <div className='foot'>
+    <div className='foot' id='f'>
         <h6>Copyright © www.myshopee.com 2023</h6>
         </div>
   )

@@ -16,7 +16,7 @@ const Product = ({ product, onAddToCart, onRemoveFromCart }) => {
 
   return (
     <div className="col-lg-3 col-md-6 mb-4">
-      <div className="card h-100">
+      <div className="card h-100" id='c'>
        
         <img
           className="card-img-top"
