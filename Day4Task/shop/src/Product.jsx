@@ -4,6 +4,7 @@ import './Cart.css'
 const Product = ({ product, onAddToCart, onRemoveFromCart }) => {
   const [isInCart, setIsInCart] = useState(false);
 
+
   const handleCartToggle = () => {
     if (isInCart) {
       onRemoveFromCart(product);
@@ -31,7 +32,7 @@ const Product = ({ product, onAddToCart, onRemoveFromCart }) => {
         <div className="card-footer">
           <button
             className={`btn btn-${isInCart ? 'danger' : 'primary'}`}
-            onClick={handleCartToggle}
+            onClick={handleCartToggle} 
           >
             {isInCart ? 'Remove from Cart' : 'Add to Cart'}
           </button>
