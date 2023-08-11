@@ -12,6 +12,7 @@ const App = () => {
 
 
   const handleAddTodo = () => {
+    
     if (newTask.trim() === '') {
         alert("Please Add New Task")
     }
@@ -26,9 +27,11 @@ const App = () => {
     setTodos([...todos, newTodo]);
     setNewTask('');
     setNewDescription('');
+
   };
 
   const handleDeleteTodo = (id) => {
+   
     const updatedTodos = todos.filter((todo) => todo.id !== id);
     setTodos(updatedTodos);
   };
@@ -72,6 +75,8 @@ const App = () => {
       setTodos(filteredTodos);
     }
   };
+  
+
 
   const current = new Date();
   const date = `${current.getDate()}/${current.getMonth() + 1}/${current.getFullYear()}  ${current.getHours()}:${current.getMinutes()}`;
