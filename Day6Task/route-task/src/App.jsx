@@ -5,6 +5,7 @@ import FullStackDevelopment from './FullStackDevelopment.jsx'
 import Career from './Career.jsx'
 import CyberSecurity from './CyberSecurity.jsx'
 import DataScience from './DataScience.jsx'
+import Images from './Images/2.png'
 
 
 function App() {
@@ -14,7 +15,7 @@ function App() {
   <>
   <Router>
   
-      <img className='img' src="https://www.guvi.in/blog/wp-content/uploads/2022/10/blog-header-1536x236.png" alt="My Image" />
+      <img className='img' src={Images} alt="My Image" />
       
      <div>
      <ul className='list'>
