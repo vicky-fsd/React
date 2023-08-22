@@ -1,0 +1,44 @@
+.App {
+  display: flex;
+  justify-content: space-around;
+  padding: 20px;
+}
+
+ul {
+  list-style: none;
+  padding: 0;
+}
+
+li {
+  margin: 10px 0;
+}
+
+button {
+  margin-left: 10px;
+}
+.card{
+  display: flex;
+  align-items: center;
+ 
+}
+.navbar{
+  display: flex;
+  justify-content: center;
+}
+.ship{
+ box-shadow: 0px 0px 15px -5px;
+  margin: 10px;
+}
+.foot{
+  height: 20vh;
+  background-color: grey;
+  display: flex;
+  flex-direction: column;
+  text-align: center;
+  align-items: center;
+  justify-content: center;
+  width: 100%;
+  color: white;
+
+}
+
