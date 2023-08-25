@@ -12,14 +12,23 @@ export default function Axi() {
   }, []);
 
   return (
-    <div>
-      {posts.map((post) => (
-        <div key={post.id}>
-          <h1>Name: {post.name}</h1>
-          <p>Email: {post.email}</p>
-          <p>City: {post.address.city}</p>
+    <div style={gridStyle}>
+    {posts.map((post) => (
+      <div key={post.id} className="card" style={{ width: "20rem" }}>
+        <div className="card-body">
+          <h5 className="card-title">Name : {post.name}</h5>
+          <p className="card-text">Username : {post.username}</p>
+          <p className="card-text">Email : {post.email}</p>
+          <p className="card-text">Address :</p>
+          <p className="card-text">{post.address.suite}</p>
+          <p className="card-text">{post.address.street}</p>
+          <p className="card-text">{post.address.city}</p>
+          <p className="card-text">Zipcode : {post.address.zipcode}</p>
+          <p className="card-text">Phone : {post.phone}</p>
+          <p className="card-text">Website : {post.website}</p>
         </div>
-      ))}
-    </div>
+      </div>
+    ))}
+  </div>
   );
 }
