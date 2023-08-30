@@ -69,7 +69,10 @@ function App() {
   }
 
   return (
+    <>
+    
     <div className="game">
+    <h1>Tic Tac Toe</h1>
       <div className="game-board">
         <div className="board-row">
           {renderSquare(0)}
@@ -88,10 +91,11 @@ function App() {
         </div>
       </div>
       <div className="game-info">
-        <div>{status}</div>
+        <div><h4>{status}</h4></div>
         <button onClick={resetGame}>Reset Game</button>
       </div>
     </div>
+    </>
   );
 }
 
