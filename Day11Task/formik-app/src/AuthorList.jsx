@@ -89,7 +89,7 @@ function AuthorList() {
               <th scope="col">#</th>
               <th scope="col">Author's Name</th>
               <th scope="col">Date of Birth</th>
-              <th scope="col">Description</th>
+              <th scope="col">Bio</th>
               <th scope="col">Actions</th>
             </tr>
           </thead>
