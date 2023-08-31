@@ -1,0 +1,84 @@
+{
+  "books": [
+    {
+      "title": "The Horry Potter",
+      "author": "J K Rowlin",
+      "isbn": "00001",
+      "publicationdate": "1997-06-27",
+      "id": 1
+    },
+    {
+      "title": "The Great Gatsby",
+      "author": " F. Scott Fitzgerald",
+      "isbn": "00002",
+      "publicationdate": "1925-02-01",
+      "id": 2
+    },
+    {
+      "title": "The Lord of the Rings",
+      "author": " J. R. R. Tolkien",
+      "isbn": "00003",
+      "publicationdate": "1937-02-01",
+      "id": 3
+    },
+    {
+      "title": "Anna Karenina",
+      "author": " Leo Tolstoy",
+      "isbn": "00004",
+      "publicationdate": "1878-02-01",
+      "id": 4
+    },
+    {
+      "title": "To Kill a Mockingbird",
+      "author": "Harper Lee",
+      "isbn": "00005",
+      "publicationdate": "1960-02-01",
+      "id": 5
+    },
+    {
+      "title": " The Great Gatsby",
+      "author": " Mark Twain",
+      "isbn": "00006",
+      "publicationdate": "1885-02-01",
+      "id": 6
+    }
+  ],
+  "author": [
+    {
+      "name": "J K Rowling",
+      "dob": "1965-07-31",
+      "description": "Joanne Rowling CH OBE FRSL, best known by her pen name J. K. Rowling, is a British author and philanthropist. She wrote Harry Potter, a seven-volume children's fantasy series published from 1997 to 2007",
+      "id": 1
+    },
+    {
+      "dob": "1896-09-24",
+      "name": "F. Scott Fitzgerald",
+      "description": "Francis Scott Key Fitzgerald was an American novelist, essayist, and short story writer. He is best known for his novels depicting the flamboyance and excess of the Jazz Age—a term he popularized in his short story collection Tales of the Jazz Age.",
+      "id": 2
+    },
+    {
+      "dob": "1892-01-03",
+      "name": "J. R. R. Tolkien",
+      "description": "John Ronald Reuel Tolkien CBE FRSL was an English writer and philologist. He was the author of the high fantasy works The Hobbit and The Lord of the Rings. From 1925 to 1945,",
+      "id": 3
+    },
+    {
+      "dob": "1828-09-09",
+      "name": "Leo Tolstoy",
+      "description": "Count Lev Nikolayevich Tolstoy, usually referred to in English as Leo Tolstoy, was a Russian writer regarded as one of the greatest authors of all time. He received nominations for the Nobel Prize in Literature every year from 1902 to 1906 and for the Nobel Peace Prize in 1901, 1902, and 1909.",
+      "id": 4
+    },
+    {
+      "dob": "1926-04-28",
+      "name": "Harper Lee",
+      "description": "Nelle Harper Lee was an American novelist who wrote the 1960 novel To Kill a Mockingbird that won the 1961 Pulitzer Prize and became a classic of modern American literature. She assisted her close friend Truman Capote in his research for the book In Cold Blood",
+      "id": 5
+    },
+    {
+      "dob": "1835-11-30",
+      "name": "Mark Twain",
+      "description": "Samuel Langhorne Clemens, best known by his pen name Mark Twain, was an American writer, humorist, entrepreneur, publisher, and lecturer. He was praised as the \"greatest humorist the United States has produced\", and William Faulkner called him \"the father of American literature\"",
+      "id": 6
+    }
+  ]
+}

@@ -1,10 +1,3 @@
-#root {
-  max-width: 1280px;
-  margin: 0 auto;
-  padding: 2rem;
-  text-align: center;
-}
-
 .logo {
   height: 6em;
   padding: 1.5em;
@@ -40,7 +33,43 @@
 .read-the-docs {
   color: #888;
 }
-form{
+#box{
+  display: flex;
+  flex-direction: row;
+  text-align: center;
+}
+.home{
   display: flex;
   justify-content: space-around;
+  background-color: whitesmoke;
+  height: 50px;
+  align-items: center;
+}
+.welcome{
+  margin: auto;
+  width: 90%;
+  padding: 10px;
+  text-align: center;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  height: 490px;
+  font-style: italic;
+ 
+}
+.add{
+  display: flex;
+  justify-content: space-around;
+
+}
+h2{
+  text-align: center;
+}
+.table{
+  text-align: center;
+}
+.navbar{
+text-align: center;
+display: flex;
+justify-content: center;
 }
