@@ -35,9 +35,11 @@ the following commands are in `command` format, kindly enter this command in you
   - git clone <repository-url>
 
    - `cd formik-app`
-
+   This application need some nessosory dependencies
+    install the following dependencies in your terminal
    - `npm install axios`
    - `npm install formik yup`
+   - `npm i react-router`
 
 2. Setting Up the Local JSON Server
 This application uses a local JSON server to store and retrieve book data. Follow these steps to set up the JSON server:

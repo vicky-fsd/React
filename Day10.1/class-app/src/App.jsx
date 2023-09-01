@@ -1,6 +1,6 @@
 
 import './App.css'
-import User from './Example'
+import SignupForm from './SignUpForm'
 
 
 
@@ -9,7 +9,7 @@ function App() {
 
   return (
   <>
-<User/>
+  <SignupForm/>
   </>
   )
 }
