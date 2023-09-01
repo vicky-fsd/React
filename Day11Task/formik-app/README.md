@@ -13,10 +13,10 @@ This is a simple web application for managing a list of books and author. It all
 
 ## Features
 
-- View a list of books.
-- Create a new book entry.
-- Edit existing book entries.
-- Delete book entries.
+- View a list of books and author.
+- Create a new book/author entry.
+- Edit existing book/author entries.
+- Delete book/author entries.
 
 ## Getting Started
 
