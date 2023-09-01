@@ -41,6 +41,13 @@
       "isbn": "00006",
       "publicationdate": "1885-02-01",
       "id": 6
+    },
+    {
+      "title": "The Chariot of Wisdom",
+      "author": "Subramania Bharati",
+      "isbn": "00007",
+      "publicationdate": "1962-02-01",
+      "id": 7
     }
   ],
   "author": [
@@ -79,6 +86,12 @@
       "name": "Mark Twain",
       "description": "Samuel Langhorne Clemens, best known by his pen name Mark Twain, was an American writer, humorist, entrepreneur, publisher, and lecturer. He was praised as the \"greatest humorist the United States has produced\", and William Faulkner called him \"the father of American literature\"",
       "id": 6
+    },
+    {
+      "dob": "1882-12-11",
+      "name": "Bharathiyar",
+      "description": "C. Subramania Bharathi was a Tamil writer, poet, journalist, Indian independence activist, social reformer and polyglot. He was bestowed the title \"Bharathi\" for his excellence in poetry. He was a pioneer of modern Tamil poetry and is considered one of the greatest Tamil literary figures of all time",
+      "id": 7
     }
   ]
 }
