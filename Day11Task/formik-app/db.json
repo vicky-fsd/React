@@ -48,6 +48,13 @@
       "isbn": "00007",
       "publicationdate": "1962-02-01",
       "id": 7
+    },
+    {
+      "title": "Beloved",
+      "author": "Toni Morrison",
+      "isbn": "00008",
+      "publicationdate": "1987-02-01",
+      "id": 8
     }
   ],
   "author": [
@@ -92,6 +99,12 @@
       "name": "Bharathiyar",
       "description": "C. Subramania Bharathi was a Tamil writer, poet, journalist, Indian independence activist, social reformer and polyglot. He was bestowed the title \"Bharathi\" for his excellence in poetry. He was a pioneer of modern Tamil poetry and is considered one of the greatest Tamil literary figures of all time",
       "id": 7
+    },
+    {
+      "dob": "1931-02-18",
+      "name": "Toni Morrison",
+      "description": "Chloe Anthony Wofford Morrison, known as Toni Morrison, was an American novelist. Her first novel, The Bluest Eye, was published in 1970. The critically acclaimed Song of Solomon brought her national attention and won the National Book Critics Circle Award.",
+      "id": 8
     }
   ]
 }
