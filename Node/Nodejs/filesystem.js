@@ -35,18 +35,18 @@ app.get('/createFile', (req, res) => {
     });
 });
 
-app.get("/getFiles",(req ,res) => {
-    fs.readdir(outputFolder,(err,files)=>{
+app.get("/listFiles", (req, res) => {
+    fs.readdir(outputFolder, (err, files) => {
         if (err) {
             res.status(500).send(`Error Reading Files: ${err}`);
             return;
         }
         console.log("List of Files", files);
-        const textFiles = files.filter((file)=> path.extname(file)===".txt");
+        const textFiles = files.filter((file) => path.extname(file) === ".txt");
 
         res.json(textFiles);
-    })
-})
+    });
+});
 
 app.listen(PORT, () => {
     console.log("Server is running on PORT", PORT);
